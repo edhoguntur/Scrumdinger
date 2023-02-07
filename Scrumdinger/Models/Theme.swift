@@ -14,7 +14,7 @@ enum Theme: String {
     case lavender
     case magenta
     case navy
-    case Orange
+    case orange
     case oxblood
     case periwinkle
     case poppy
@@ -27,7 +27,7 @@ enum Theme: String {
     
     var accentColor: Color {
         switch self {
-        case .bubblegum, .buttercup, .lavender, .Orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return .black
+        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return .black
         case .indigo, .magenta, .navy, .oxblood, .purple: return .white
         }
     }

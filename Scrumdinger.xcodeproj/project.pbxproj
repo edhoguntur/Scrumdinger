@@ -12,6 +12,7 @@
 		DA1278F729921E1700421BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1278F629921E1700421BAB /* Assets.xcassets */; };
 		DA1278FA29921E1700421BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1278F929921E1700421BAB /* Preview Assets.xcassets */; };
 		DA12790429922B1C00421BAB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12790329922B1C00421BAB /* Theme.swift */; };
+		DA12790629922DA400421BAB /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12790529922DA400421BAB /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DA1278F629921E1700421BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1278F929921E1700421BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA12790329922B1C00421BAB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DA12790529922DA400421BAB /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				DA12790329922B1C00421BAB /* Theme.swift */,
+				DA12790529922DA400421BAB /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA12790629922DA400421BAB /* DailyScrum.swift in Sources */,
 				DA12790429922B1C00421BAB /* Theme.swift in Sources */,
 				DA1278F529921E1600421BAB /* MeetingView.swift in Sources */,
 				DA1278F329921E1600421BAB /* ScrumdingerApp.swift in Sources */,
