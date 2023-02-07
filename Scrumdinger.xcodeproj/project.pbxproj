@@ -15,6 +15,7 @@
 		DA12790829922F4C00421BAB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12790729922F4C00421BAB /* CardView.swift */; };
 		DA12790E29923AAF00421BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA12790D29923AAF00421BAB /* Assets.xcassets */; };
 		DA12791029923B1500421BAB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12790F29923B1500421BAB /* TrailingIconLabelStyle.swift */; };
+		DA12791429924D4300421BAB /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA12791329924D4300421BAB /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DA12790729922F4C00421BAB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DA12790D29923AAF00421BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/CreatingACardView/Complete/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		DA12790F29923B1500421BAB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		DA12791329924D4300421BAB /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				DA1278F429921E1600421BAB /* MeetingView.swift */,
 				DA12790729922F4C00421BAB /* CardView.swift */,
 				DA12790F29923B1500421BAB /* TrailingIconLabelStyle.swift */,
+				DA12791329924D4300421BAB /* ScrumsView.swift */,
 				DA1278F829921E1700421BAB /* Preview Content */,
 			);
 			path = Scrumdinger;
@@ -160,6 +163,7 @@
 				DA12790629922DA400421BAB /* DailyScrum.swift in Sources */,
 				DA12790429922B1C00421BAB /* Theme.swift in Sources */,
 				DA1278F529921E1600421BAB /* MeetingView.swift in Sources */,
+				DA12791429924D4300421BAB /* ScrumsView.swift in Sources */,
 				DA1278F329921E1600421BAB /* ScrumdingerApp.swift in Sources */,
 				DA12790829922F4C00421BAB /* CardView.swift in Sources */,
 				DA12791029923B1500421BAB /* TrailingIconLabelStyle.swift in Sources */,
