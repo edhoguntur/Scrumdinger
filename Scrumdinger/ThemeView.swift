@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ThemeView: View {
     let theme: Theme
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 4)
@@ -18,7 +19,6 @@ struct ThemeView: View {
         }
         .foregroundColor(theme.accentColor)
         .fixedSize(horizontal: false, vertical: true)
-        
     }
 }
 

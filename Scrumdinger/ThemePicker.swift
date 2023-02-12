@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ThemePicker: View {
     @Binding var selection: Theme
-    
+
     var body: some View {
         Picker("Theme", selection: $selection) {
             ForEach(Theme.allCases) { theme in
@@ -17,11 +17,14 @@ struct ThemePicker: View {
                     .tag(theme)
             }
         }
+        // for IOS 16.2 use picker style .navigation Link
+        // to show the Color
+        .pickerStyle(.navigationLink)
     }
 }
 
 struct ThemePicker_Previews: PreviewProvider {
     static var previews: some View {
-        ThemePicker(selection: .constant(.periwinkle))
+        ThemePicker(selection: .constant(.seafoam))
     }
 }
